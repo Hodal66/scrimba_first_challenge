@@ -28,6 +28,9 @@ header {
   width:50%;
   gap:1rem;
 }
+.nav-container h1{
+  color:rgb(133, 199, 243)
+}
 .nav-container img{
   width:10%;
   height:50%;
@@ -39,4 +42,59 @@ header {
 .main__content-container > div > ul > li{
   padding: 0.5rem;
   font-size: 1.5rem;
+}
+@media screen and (max-width:600px) {
+
+    .nav-container {
+      margin-left: 1rem;
+    }
+    .nav-container h1,h2{
+      padding: 1rem;
+     font-size:1rem;
+    }
+    .main__content-container{
+      margin: 3rem;
+    }
+    .main__content-container > div > ul > li{
+      font-size: 1rem;
+    }
+    .main__content-container h1{
+      font-size:1.5rem;
+    }
+    .nav-container img{
+      width:20%;
+      height:50%;
+      padding-top:1rem ;
+    }
+}
+ul li::marker {
+  color:rgb(133, 199, 243);
+  font-size: 1.5em;
+}
+@media screen and (max-width:270px) {
+
+    .nav-container {
+      margin-left: 1rem;
+    }
+    .nav-container h1,h2{
+      padding-top: 1rem;
+     font-size:0.5rem;
+
+    }
+    .main__content-container{
+      margin: 1rem;
+    }
+    .main__content-container > div > ul > li{
+      font-size: 0.7rem;
+      padding: 0.3rem;
+      margin:0rem;
+    }
+    .main__content-container h1{
+      font-size:1rem;
+    }
+    .nav-container img{
+      width:20%;
+      height:50%;
+      padding-top:1rem ;
+    }
 }
