@@ -1,8 +1,8 @@
 import React from "react";
 
-function MainContent() {
+function MainContent(props) {
   return (
-    <div className="main__content-container">
+    <div className={props.darkMode ? "main__content-container" : "right"}>
       <h1>Fan Facts About React </h1>
       <div>
         <ul>
